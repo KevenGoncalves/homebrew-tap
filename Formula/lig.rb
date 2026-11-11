@@ -8,19 +8,19 @@ class Lig < Formula
     depends_on arch: :arm64
 
     on_arm do
-      url "https://github.com/KevenGoncalves/lig/releases/download/v1.2.0/lig-1.2.0-aarch64-apple-darwin.tar.gz"
-      sha256 "674e6d4bb5ffa8f35cde2a029a8dba55195343042f69d533a151d8122eda93d1"
+      url "https://github.com/KevenGoncalves/lig/releases/download/v1.2.1/lig-1.2.1-aarch64-apple-darwin.tar.gz"
+      sha256 "c04938996de7e7dcc92caa229d690a21e148ad17f3ce7c1768c8e1a3f3cbe3fc"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/KevenGoncalves/lig/releases/download/v1.2.0/lig-1.2.0-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "d608b0486aa6c182b30e8819b64c5a64fef966d743b21af88615033ad21f7121"
+      url "https://github.com/KevenGoncalves/lig/releases/download/v1.2.1/lig-1.2.1-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "c52dbc6e6c9b30632973c8f3a498cebb875f3d7210b318d9b6ee3eb8a09f3ae9"
     end
     on_arm do
-      url "https://github.com/KevenGoncalves/lig/releases/download/v1.2.0/lig-1.2.0-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "0ff8d2f4c9a3f66406841f4c23f9880d6445aa5f1d4c5e91338da7224c854f17"
+      url "https://github.com/KevenGoncalves/lig/releases/download/v1.2.1/lig-1.2.1-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "69faca10917b7e35269af5dabc46b855ea951744cc2f1ad8af76da6a6110407f"
     end
   end
 
